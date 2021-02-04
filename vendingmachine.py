@@ -202,7 +202,8 @@ def clean_reset():
   curr_drink.configure(file='./assets/fil.png')
   cost_label.configure(text='Cost: ...')
   change_label.configure(text='Change: ...')
-
+  wallet_btn.configure(text='Wallet: 1000')
+  wallet_amt = 1000
 
 # Drinks Frame
 
