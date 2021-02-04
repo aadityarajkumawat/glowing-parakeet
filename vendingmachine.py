@@ -193,6 +193,7 @@ def pay():
   wallet_btn.configure(text=ww)
 
 def clean_reset():
+  global wallet_amt
   vending_machine.reset_state()
   vending_machine.select_pepsi()
   coke_price_label.configure(fg='#fff')
@@ -204,6 +205,7 @@ def clean_reset():
   change_label.configure(text='Change: ...')
   wallet_btn.configure(text='Wallet: 1000')
   wallet_amt = 1000
+  wallet = 1000
 
 # Drinks Frame
 
